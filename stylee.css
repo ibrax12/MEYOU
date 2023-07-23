@@ -1,0 +1,54 @@
+html{
+    width:100%;
+    height:100%;
+}
+body{
+   background:linear-gradient(45deg,#ff9600,#fb5400,#e600ac)
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:50vh;
+    
+}
+.text{
+    color:#fff;
+}
+.input-text{
+    text-align: center;
+    outline:none;
+    border-radius: 7px;
+    border:#fff;
+    padding:10px
+    
+
+}
+.input-text:focus{
+    background:linear-gradient(to right,#ff9600,#fb5400,#e600ac)
+}
+.container-1{
+    height:10vh;
+
+}
+.container-2{
+    height:10vh;
+}
+.container-3{
+    height:10vh;
+}
+.container-4{
+    height:10vh;
+}
+.title{
+    text-align:center;
+    color:#fff;
+    font-family:cursive;
+    font-size:20px;
+    animation:neon 0.5s ease-in-out infinite alternate;
+}
+@keyframes neon{
+    from{
+        text-shadow: 0  10px #fff,0 0 40px #228dff;
+    }
+}
